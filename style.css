@@ -1,0 +1,279 @@
+body{
+    background-image: url("https://www.xtrafondos.com/wallpapers/cafe-junto-a-periodico-5809.jpg");
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+*{
+    margin: auto ;
+    padding: auto;
+    box-sizing: border-box;
+    
+ 
+   
+    
+}
+
+
+
+
+
+ul li{
+    list-style-type: none;
+}
+
+
+
+a  {
+  text-decoration: none;
+
+  opacity: 100%;
+
+}
+
+
+
+
+/*navegador*/
+.header{
+
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  margin: auto;
+  
+
+
+
+}
+
+
+
+
+
+
+
+.lista{
+ 
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    color: rgb(0, 0, 0);
+    
+   
+    margin: 0px;
+    list-style: none;
+    
+
+    
+}
+
+
+
+
+div h1 {
+   width: auto ;
+   margin: 5px;
+   margin-top: 100px;
+  
+   bottom: unset;
+  text-align: center;
+   color: rgb(125, 73, 31);
+   
+}
+
+
+nav{
+    
+
+    
+    background-color: rgb(210, 210, 211) ;
+    opacity: 0.5;
+    padding: 26px;
+    
+  
+    
+}
+
+
+a:hover{
+ 
+ 
+   color: rgb(0, 0, 0);
+   margin: 14px;
+   
+   transition: 1s;
+}
+
+@media (max-width:750px)  {
+    .lista{
+        gap: 1rem;
+    }
+
+    a:hover{
+        margin: 10px ;
+
+    
+    
+}  
+
+
+
+}
+
+
+/* slider */
+
+.slider{
+  width: 60%;
+  margin: auto;
+ overflow: hidden;
+ border-radius: 8px;
+ 
+
+ 
+ 
+}
+
+
+.slider ul {
+  
+  
+  display: flex;
+  padding: 0;
+  width: 300%;
+ animation: cambio 20s infinite;
+ margin-top: 25px;
+  
+}
+
+
+
+.slider li {
+  width: 300%;
+  list-style: none;
+}
+
+
+.slider img{
+  width: 100%;
+  border-radius: 8px;
+  
+  
+}
+
+@keyframes cambio {
+  0%{margin-left: 0%;}
+  20%{margin-left: -100%;}
+  30%{margin-left: -200%;}
+}
+  
+@media screen and (max-width:800px) {
+  .slider{
+    width: 95%;
+  }
+
+  
+  
+}
+
+
+
+
+section{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+  
+  margin-top: 50px;
+
+}
+
+.estilo-c{
+  font-family: sans-serif;
+  width: 400px;
+  
+  padding: 30px;
+  background-color: rgb(249, 249, 249);
+  opacity: 0.9;
+  border-radius: 4px;
+  margin-top: 45px;
+  
+  
+}
+.estilo-c .img-container{
+  overflow: hidden;
+  height: 240px;
+  position: relative;
+  border-radius: 15px;
+  width: 350px;
+  
+  
+  
+  
+}
+.estilo-c .img-container img{
+  width: 100%;
+  position: absolute;
+   
+
+  transition: all 0.5s;
+}
+.estilo-c:hover .img-container img{
+  transform: scale(1.2);
+}
+
+.estilo-c .info-container{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.estilo-c .info-container h3{
+  margin-top: 20px;
+}
+.estilo-c .info-container h3,
+.estilo-c .info-container strong,
+.estilo-c .info-container span{
+  padding: 15px 5px;
+  width: 100%;
+}
+.estilo-c .add-cart{
+  margin-top: 2px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.estilo-c .add-cart:hover{
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.titulo{
+
+    
+  display: flex;
+  justify-content: inherit;
+  background-color: rgb(210, 210, 211);
+  opacity: 0.5;
+  
+  
+
+}
+
+
